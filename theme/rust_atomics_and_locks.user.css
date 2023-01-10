@@ -1,0 +1,64 @@
+/* ==UserStyle==
+@name           Solarized theme for "Rust Atomics and Locks"
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Adopted following official Solarized guide
+@author         jsomedon
+==/UserStyle== */
+@-moz-document url-prefix("https://marabos.nl/atomics/") {
+	/* Insert code here... */
+	:root {
+		--footer: #073642;
+		--footer-fg: #839496;
+		--aside-link: #b58900;
+		--bg: #002b36;
+		--fg: #839496;
+		--fg-bright: #93a1a1;
+		--aside-bg: #073642;
+		--aside-fg: #839496;
+		--aside-border: #073642;
+		--image-border: #002b36;
+		--callout-fg: #002b36;
+		--callout-bg: #859900;
+		--pre-bg: #073642;
+		--aside-pre-bg: #002b36;
+		--note-line: #586e75;
+		--table-line: #586e75;
+	}
+
+	#toc > ul > li > a {
+		font-weight: bold;
+		color: #b58900;
+		text-decoration-color: #b58900;
+	}
+
+	a {
+		color: #b58900;
+	}
+
+	code {
+		color: #268bd2;
+	}
+
+	nav.index {
+		border-color: #839496;
+	}
+
+	::selection {
+		background-color: #eee8d5;
+	}
+
+	p#start a {
+		background-color: #b58900;
+		color: #fdf6e3;
+	}
+
+	#print .bookstores a {
+		background-color: #073642;
+		color: #b58900;
+	}
+
+	#print .bookstores a:not(.promo):hover {
+		background-color: #002b36;
+	}
+}
